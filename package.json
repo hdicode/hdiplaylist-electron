@@ -1,7 +1,7 @@
 {
-  "name": "pisang-ijo",
+  "name": "hdiplaylist",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Nice Application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."

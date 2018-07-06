@@ -12,28 +12,33 @@
     </div>
     <div class="bottom">
       ini bottom
+      <br>
+      ini bottom 2
     </div>
 
     <script>
         require('./5menus.js')
     </script>
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+      html {
+        height:100%;
+      }
       body {
+        font-family: 'Hammersmith One', Arial, Helvetica, sans-serif;
         box-sizing: border-box;
         padding: 0;
         margin: 0;
         display: flex;
+        height:100%;
         flex-direction: column;
         color: #a0a0a0;
-        background: #181818;
       }
       .top {
         flex: 1;
         overflow: auto;
       }
       .bottom {
-        flex: 0;
-        margin-top:10px;
         border-top: 1px solid #121212;
         background: #292929;
         width:100%;
