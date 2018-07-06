@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spokipai</title>
+  </head>
+  <body>
+    <div class="top">
+        <div class="draggable"></div>
+        <h1>Hdicode DIM is trying all objects.</h1>
+        <input type="button" id="frameless-window" value="Click to new window">
+    </div>
+    <div class="bottom">
+      ini bottom
+    </div>
+
+    <script>
+        require('./5menus.js')
+    </script>
+    <style>
+      body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        color: #a0a0a0;
+        background: #181818;
+      }
+      .top {
+        flex: 1;
+        overflow: auto;
+      }
+      .bottom {
+        flex: 0;
+        margin-top:10px;
+        border-top: 1px solid #121212;
+        background: #292929;
+        width:100%;
+        height:87px;
+      }
+      .draggable {
+        /* untuk drag halaman windowsnya */
+        -webkit-app-region: drag;
+        width:100%;
+        height:47px;
+        background: #121212;
+      }
+    </style>
+  </body>
+</html>
